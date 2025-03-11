@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل حساب جديد</title>
+
+    <link rel="stylesheet" href="img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--  -->
+    <div class="progrees">
+        <div class="progrees-bar" id="scroll-bar">
+        </div>
+    </div>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">GAMES <span>CARDS</span></a>
+
+            <div class="nav-icons">
+                <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+                <i class='bx bxs-user'></i>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <div class="menu">
+                <img src="img/menu.png" alt="">
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Tranding</a></li>
+                    <li><a href="#">New Games</a></li>
+                    <li><a href="#">action Games</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </div>
+            </div>
+            <div class="notification">
+                <div class="notification-box">
+                    <i class="bx bxs-check-circle"></i>
+                    <p>Congration, Your Requird Has Done</p>
+                </div>
+                <div class="notification-box">
+                    <i class="bx bxs-check-circle"></i>
+                    <p>Congration, Your Requird Has Done</p>
+                </div>
+                <div class="notification-box box-color">
+                    <i class="bx bxs-x-circle"></i>
+                    <p>Could Not End Your Required</p>
+                </div>
+                <div class="notification-box">
+                    <i class="bx bxs-check-circle"></i>
+                    <p>Congration, Your Requird Has Done</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="login-container">
+        <div class="form-box">
+            <h2>Register</h2>
+            <form action="/register" method="POST">
+                <div class="input-box">
+                    <input type="text" name="name" required>
+                    <label>name </label>
+                </div>
+                <!-- <div class="input-box">
+                    <input type="tel" name="phone" required>
+                    <label>رقم الهاتف</label>
+                </div> -->
+                <div class="input-box">
+                    <input type="email" name="email" required>
+                    <label>email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" required>
+                    <label>password</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password_confirmation" required>
+                    <label>password confirmation</label>
+                </div>
+                <button class="btns" type="submit">create</button>
+                <div class="register-link">
+                    <p>you have allready account? <a href="/login">login</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="copyright container">
+        <a href="#" class="logo">Game <span>Cards</span></a>
+        <p>&#169; All Right Reserved</p>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
